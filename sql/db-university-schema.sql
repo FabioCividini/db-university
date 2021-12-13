@@ -1,8 +1,8 @@
-create database db_university_schema;
-use db_university_schema;
+create database db_university;
+use db_university;
 
 
---SCHEMA
+-- SCHEMA
 
 
 create table departments(
@@ -55,7 +55,7 @@ create table teachers(
 );
 
 
---TABELLA PONTE TRA TEACHERS E COURSES
+-- TABELLA PONTE TRA TEACHERS E COURSES
 
 
 create table teachers_courses(
@@ -94,7 +94,7 @@ create table exams(
 );
 
 
---TABELLA PONTE VOTI X EXAMS E STUDENTS
+-- TABELLA PONTE VOTI X EXAMS E STUDENTS
 
 
 create table vote(
